@@ -1,6 +1,7 @@
 
 
 let btn = document.querySelector("button")
+let predict =  document.querySelector(".prediction")
 
 
 let moved = false
@@ -16,3 +17,8 @@ btn.addEventListener("mouseover",function(){
     }
 
 })
+
+setTimeout(function(){
+    btn.style.display = "none"
+    predict.innerText = "Sorry.. You don't have a futre!"
+},10000)

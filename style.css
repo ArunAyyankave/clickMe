@@ -9,13 +9,15 @@ div{
     height: 100vh;
     width: 60%;
 }
-
+.head{
+    margin-top: 100px;
+}
 button{
-    margin-top: 45%;
+    margin-top:100px;
     background-color: rgb(27, 91, 200);
     border: none;
     border-radius: 10px;
-    padding: 10px 100px;
+    padding: 10px 50px;
     color: white;
     font-size: larger;
 }
