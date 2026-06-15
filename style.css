@@ -1,4 +1,17 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 100vh;
+    width: 60%;
+}
+
 button{
+    margin-top: 45%;
     background-color: rgb(27, 91, 200);
     border: none;
     border-radius: 10px;
